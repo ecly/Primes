@@ -13,7 +13,7 @@ namespace Primes
         {
             var primes = new List<int> { 2 };
 
-            for (int i = 3; i < int.MaxValue; i++)
+            for (int i = 3; i < int.MaxValue; i+=2)
             {
                 var isPrime = true;
                 foreach (int j in primes)
